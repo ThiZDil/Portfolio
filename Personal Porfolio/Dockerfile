@@ -2,9 +2,7 @@ FROM nginx:alpine
 
 WORKDIR /usr/share/nginx/html
 
-COPY index.html .
-COPY script.js js/
-COPY style.css css/
+COPY ./ ./ 
 
 EXPOSE 80
 
